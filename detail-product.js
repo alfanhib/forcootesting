@@ -26,8 +26,7 @@ const detailProduct = () => {
 
                     <div class="col-md-6" class="screen" >
                     <img src="${product.foto}" width="100%">
-                    <img src="${product.foto}" width="100%">
-                    <img src="${product.foto}" width="100%">
+                    ${image}
                     </div>
 
                     <div class="col-md-6 mt-5">
