@@ -16,7 +16,7 @@ const detailProduct = () => {
       let data = [1, 2, 3, 4];
 
       let renderImage = product.foto.map(function (element) {
-        return `<img src="${elemet}" width="100%">`;
+        return `<img src="${element}" width="100%">`;
       });
 
       ourProduct.innerHTML += `
