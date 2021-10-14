@@ -12,7 +12,16 @@ const detailProduct = () => {
             console.log(responseJson.product);
             ourProduct.innerHTML = "";
             var product = responseJson.product.find( product => product.id == myParam)
-           
+                
+                let data = [1,2,3,4]
+                
+                let image = 
+                    data.map(function(element){
+                     let imgName = "https://raw.githubusercontent.com/alfanhib/forcootesting/main/assets/img/1.png"
+                     return `<img src="${product.foto}" width="100%">`
+                    });
+                ;
+                
                 ourProduct.innerHTML += `
 
                     <div class="col-md-6" class="screen" >
