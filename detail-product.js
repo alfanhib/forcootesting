@@ -1,25 +1,29 @@
-const data = "product.json";
+const data = 'product.json';
 const ourProduct = document.querySelector('#product');
 const urlParams = new URLSearchParams(window.location.search);
 const myParam = urlParams.get('id');
 
-
 const detailProduct = () => {
-    fetch(data)
-        .then(response => {
-            return response.json();
-        }).then(responseJson => {
-            console.log(responseJson.product);
-            ourProduct.innerHTML = "";
-            var product = responseJson.product.find( product => product.id == myParam)
-                
-                let data = [1,2,3,4]
-               
-                
-                ourProduct.innerHTML += `
+  fetch(data)
+    .then(response => {
+      return response.json();
+    })
+    .then(responseJson => {
+      console.log(responseJson.product);
+      ourProduct.innerHTML = '';
+      var product = responseJson.product.find(product => product.id == myParam);
+
+      let data = [1, 2, 3, 4];
+
+      let renderImage = data.map(function (element) {
+        return `<img src="${product.foto}" width="100%">`;
+      });
+
+      ourProduct.innerHTML += `
 
                     <div class="col-md-6" class="screen" >
                     <img src="${product.foto}" width="100%">
+                    ${renderImage}
                     </div>
 
                     <div class="col-md-6 mt-5">
@@ -39,9 +43,9 @@ const detailProduct = () => {
                     
 
                 `;
-        
-        }).catch(error => {
-            console.error(error);
-        });
-}
-document.addEventListener('DOMContentLoaded', detailProduct );
+    })
+    .catch(error => {
+      console.error(error);
+    });
+};
+document.addEventListener('DOMContentLoaded', detailProduct);
