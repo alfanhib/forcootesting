@@ -17,7 +17,7 @@ const getListMhs = () => {
                    <div class="col-md-6 mt-5 mb-5">
 
                     <a href="detail-product.html?id=${item.id}"> 
-                        <img src="${item.foto}" width="90%">
+                        <img src="${item.foto[0}" width="90%">
                         <div class="des-product">
                         <h2 class="mt-3">${item.nama} </h2>
                         <h6 class="mt-3">${item.harga} </h6>
