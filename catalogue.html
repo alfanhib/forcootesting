@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="catalogue.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    
+</head>
+<body>
+
+    <div class="banner">
+        <div class="bg">
+            <nav class="header">
+                <div class="back">
+                    <a href="index.html">
+                        <img src="assets/Icon/next white.png" class="ml-5"  alt="" width="30" height="30" class="icon-back">
+                        <p class="gtc ml-3 mt-1">Back to homepage</p>
+                    </a> 
+                </div>
+                <!-- <div class="logo">
+                    <img src="assets/Logo/FORCOO LOGO.png" alt="" id="Logo" width="30px" >
+                </div> -->
+            </nav>
+            <div class="container">
+                <div class="tittle">
+                    <h1><b>Best Quality</b>  and Carefully Crafted.</h1>
+                    <div class="lines">
+                        <hr class="line"> 
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Content">
+        <div class="container">
+            <div class="row " id="ourProduct">
+            
+
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="script-json.js"></script>
+<script>
+    const navbar = document.querySelector('.header');
+    window.onscroll = () => {
+    if (window.scrollY > 300) {
+        navbar.classList.add('nav-active');
+    } else {
+        navbar.classList.remove('nav-active');
+    }
+};
+</script>
+</html>

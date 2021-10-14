@@ -1,0 +1,37 @@
+{
+    "product": [{
+        "id" : 1,
+        "nama": "Eira Vacuum Bed 1",
+        "harga": "90x 190 = Rp425.000 | 120 x 190 = Rp550.000",
+        "materials": "Menggunakan busa berkualitas tinggi yang tidak mudah kempes dan membuat nyaman.Menggunakan kain knitting yang di quilting sehingga menghasilkan corak yang indah, serta memberikan tekstur yang lembut dan halus.",
+        "foto": "assets/img/1.png",
+        "link-shoope" :"",
+        "link-tokped" : ""
+    }, {
+        "id" : 2,
+        "nama": "Sofa Bed 2",
+        "harga": "90x 190 = Rp425.000 | 120 x 190 = Rp550.000",
+        "materials": "Menggunakan busa berkualitas tinggi yang tidak mudah kempes dan membuat nyaman.Menggunakan kain knitting yang di quilting sehingga menghasilkan corak yang indah, serta memberikan tekstur yang lembut dan halus.",
+        "foto": "assets/img/1.png",
+        "link-shoope" :"",
+        "link-tokped" : ""
+    }, {
+        "id" : 3,
+        "nama": "Serene Bed 3",
+        "harga": "90x 190 = Rp425.000 | 120 x 190 = Rp550.000",
+        "materials": "Menggunakan busa berkualitas tinggi yang tidak mudah kempes dan membuat nyaman.Menggunakan kain knitting yang di quilting sehingga menghasilkan corak yang indah, serta memberikan tekstur yang lembut dan halus.",
+        "foto": "assets/img/1.png",
+        "link-shoope" :"",
+        "link-tokped" : ""
+      
+    }, {
+        "id" : 4,
+        "nama": "Meidira Bed 4",
+        "harga": "90x 190 = Rp425.000 | 120 x 190 = Rp550.000",
+        "materials": "Menggunakan busa berkualitas tinggi yang tidak mudah kempes dan membuat nyaman.Menggunakan kain knitting yang di quilting sehingga menghasilkan corak yang indah, serta memberikan tekstur yang lembut dan halus.",
+        "foto": "assets/img/1.png",
+        "link-shoope" :"",
+        "link-tokped" : ""
+       
+    }]
+}

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;400;200&family=Raleway:wght@500&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+/* BODY */
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-x:hidden;
+    background-color: #E5E5E5;
+}
+h1{
+  color :white;
+  font-family: 'Inter', sans-serif;
+}
+h2{
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  color: #393939;
+}
+
+h6{
+font-family: 'Nunito', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+color: #393939;
+font-weight: 200;
+}
+
+  
+/* FONT */
+p{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #FFFFFF;
+text-decoration: none;
+}
+/* NAVBAR */
+nav{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  padding: 20px 0px;
+  height: 100px;
+  z-index: 100;
+
+}
+nav a{
+  display: flex;
+}
+nav .logo{
+  display: flex;
+  align-content:flex-end;
+  justify-content:flex-end;
+}
+.nav-active{
+  transition: 2s;
+  background-color: rgba(0, 0, 0, 0.14);
+  z-index: 100;
+  height: 10%;
+  scrollbar-shadow-color: #000;
+  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+
+
+}
+
+
+/* BANNER */
+
+.banner{
+  background-image: url('assets/img/adam-winger-nclN_J0UtJ8-unsplash.jpg');
+  background-position: center;
+  background-size: cover;
+ 
+
+}
+.bg{
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.377) 50%, rgba(0, 0, 0, 0.377) 50%);
+}
+
+.back img{
+  -webkit-transform:rotate(180deg);
+}
+
+
+.tittle{
+  width: 100%;
+  padding: 100px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.lines {
+  width: 100%;
+}
+hr{
+  width: 40%;
+}
+.line{
+  border-bottom: 2px white solid;
+
+}
+.Content{
+  background-color: #E5E5E5;
+}
+
+
+/* ===================================================== */
+/* RESPONSIVE */
+/* ===================================================== */
+
+/* ipad pro */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 26px;
+  }
+
+}
+@media only screen and (max-width: 576px) {
+  .tittle h1{
+    font-size: 16px;
+  }
+  p{
+    font-size: 12px;
+  }
+  .back img {
+    width: 20px;
+    height: 20px;
+  }
+  .bg{
+    height: 200px;
+  }
+  .tittle{
+    width: 100%;
+    padding: 80px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .Content img{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+/* ===================================================== */
+/* PAGE DETAIL PRODUCT */
+/* ===================================================== */

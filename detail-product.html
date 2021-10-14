@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    
+</head>
+<style>
+
+nav{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  padding: 20px 0px;
+  height: 70px;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.14);
+}
+nav a{
+  display: flex;
+  color: white;
+}
+nav .logo{
+  display: flex;
+  align-content:flex-end;
+  justify-content:flex-end;
+}
+.nav-active{
+  transition: 2s;
+  background-color: rgba(0, 0, 0, 0.14);
+  z-index: 100;
+  height: 10%;
+  scrollbar-shadow-color: #000;
+  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+
+
+}
+.back img{
+  -webkit-transform:rotate(180deg);
+}
+
+.m-1{
+    margin-top: -5px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow-x:hidden;
+  height: 40vw;
+  background-color: #E5E5E5;
+}
+.container-fluid{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+.btn-buy{
+    width: 200px;
+    padding: 15px 0px;
+    background-color: transparent;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.description{
+    position:fixed;
+}
+
+@media only screen and (max-width: 576px) {
+    
+.description{
+    position:flex;
+}
+
+}
+</style>
+<body>
+    <nav class="header">
+        <div class="back">
+            <a href="index.html">
+                <img src="assets/Icon/next white.png" class="ml-5"  alt="" width="30" height="30" class="icon-back">
+                <p class="gtc ml-3 mt-1">Back to homepage</p>
+            </a> 
+        </div>
+        <!-- <div class="logo">
+            <img src="assets/Logo/FORCOO LOGO.png" alt="" id="Logo" width="30px" >
+        </div> -->
+    </nav>
+    <div class="container-fluid">
+        <div class="row " id="product">
+            
+
+        </div>
+
+    </div>
+    
+</body>
+<script>
+   
+</script>
+<script src="detail-product.js"></script>
+</html>
