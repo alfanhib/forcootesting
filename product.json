@@ -4,7 +4,7 @@
         "nama": "Eira Vacuum Bed 1",
         "harga": "90x 190 = Rp425.000 | 120 x 190 = Rp550.000",
         "materials": "Menggunakan busa berkualitas tinggi yang tidak mudah kempes dan membuat nyaman.Menggunakan kain knitting yang di quilting sehingga menghasilkan corak yang indah, serta memberikan tekstur yang lembut dan halus.",
-        "foto": "assets/img/1.png",
+        "foto": ["https://alfanhib.github.io/forcootesting/assets/img/1.png","https://alfanhib.github.io/forcootesting/assets/img/1.png","https://alfanhib.github.io/forcootesting/assets/img/1.png"],
         "link-shoope" :"",
         "link-tokped" : ""
     }, {
@@ -12,7 +12,7 @@
         "nama": "Sofa Bed 2",
         "harga": "90x 190 = Rp425.000 | 120 x 190 = Rp550.000",
         "materials": "Menggunakan busa berkualitas tinggi yang tidak mudah kempes dan membuat nyaman.Menggunakan kain knitting yang di quilting sehingga menghasilkan corak yang indah, serta memberikan tekstur yang lembut dan halus.",
-        "foto": "assets/img/1.png",
+        "foto": ["https://alfanhib.github.io/forcootesting/assets/img/1.png","https://alfanhib.github.io/forcootesting/assets/img/1.png","https://alfanhib.github.io/forcootesting/assets/img/1.png"],
         "link-shoope" :"",
         "link-tokped" : ""
     }, {
@@ -20,7 +20,7 @@
         "nama": "Serene Bed 3",
         "harga": "90x 190 = Rp425.000 | 120 x 190 = Rp550.000",
         "materials": "Menggunakan busa berkualitas tinggi yang tidak mudah kempes dan membuat nyaman.Menggunakan kain knitting yang di quilting sehingga menghasilkan corak yang indah, serta memberikan tekstur yang lembut dan halus.",
-        "foto": "assets/img/1.png",
+        "foto": ["https://alfanhib.github.io/forcootesting/assets/img/1.png","https://alfanhib.github.io/forcootesting/assets/img/1.png","https://alfanhib.github.io/forcootesting/assets/img/1.png"],
         "link-shoope" :"",
         "link-tokped" : ""
       
@@ -29,7 +29,7 @@
         "nama": "Meidira Bed 4",
         "harga": "90x 190 = Rp425.000 | 120 x 190 = Rp550.000",
         "materials": "Menggunakan busa berkualitas tinggi yang tidak mudah kempes dan membuat nyaman.Menggunakan kain knitting yang di quilting sehingga menghasilkan corak yang indah, serta memberikan tekstur yang lembut dan halus.",
-        "foto": "assets/img/1.png",
+        "foto": ["https://alfanhib.github.io/forcootesting/assets/img/1.png","https://alfanhib.github.io/forcootesting/assets/img/1.png","https://alfanhib.github.io/forcootesting/assets/img/1.png"],
         "link-shoope" :"",
         "link-tokped" : ""
        
