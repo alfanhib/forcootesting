@@ -15,14 +15,13 @@ const detailProduct = () => {
 
       let data = [1, 2, 3, 4];
 
-      let renderImage = data.map(function (element) {
-        return `<img src="${product.foto}" width="100%">`;
+      let renderImage = product.foto.map(function (element) {
+        return `<img src="${elemet}" width="100%">`;
       });
 
       ourProduct.innerHTML += `
 
                     <div class="col-md-6" class="screen" >
-                    <img src="${product.foto}" width="100%">
                     ${renderImage}
                     </div>
 
